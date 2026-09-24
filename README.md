@@ -6,7 +6,9 @@ A free, public learning resource for embedded systems and firmware engineeringâ€
 
 ## Project status
 
-The first chapter and the Astro + Starlight website are implemented. The Cloudflare account connection and first public deployment are pending.
+The website is live at **[hardfault.pages.dev](https://hardfault.pages.dev)** on Cloudflare Pages Free.
+
+Read the first chapter: **[Bit manipulation](https://hardfault.pages.dev/c-and-cpp/bit-manipulation/)**. Pushes to `main` automatically build and publish updates.
 
 See [the project plan](PROJECT_PLAN.md) for requirements, architecture, content structure, and implementation milestones.
 

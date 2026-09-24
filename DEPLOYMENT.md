@@ -11,9 +11,9 @@ The site is a static Astro + Starlight build. Use **Cloudflare Pages Free**, not
 
 | Setting | Value |
 | --- | --- |
-| Project name | `hardfault`, if available; otherwise `hardfault-guide` or an available variant |
+| Project name | `hardfault` |
 | Production branch | `main` |
-| Framework preset | Astro |
+| Framework preset | None (explicit Astro build command below) |
 | Root directory | Repository root (leave blank) |
 | Build command | `npm run build` |
 | Build output directory | `dist` |
@@ -37,6 +37,13 @@ Search is generated during the production build; verify it in the preview rather
 
 ## Publication status
 
-Website code is prepared for Git-based deployment. A live URL is not confirmed until the Cloudflare account connection and first deployment succeed.
+The first deployment succeeded from commit `63da60e`.
+
+- Homepage: https://hardfault.pages.dev/
+- First chapter: https://hardfault.pages.dev/c-and-cpp/bit-manipulation/
+- Repository: https://github.com/KaranBajaj08/hardfault
+- Production branch: `main`, with automatic deployments enabled.
+- Build variable: `SITE_URL=https://hardfault.pages.dev` (configured at initial deployment).
+- Hosting: Cloudflare Pages Free, using the included subdomain; no paid plan or custom domain was added.
 
 Reference: https://developers.cloudflare.com/pages/framework-guides/deploy-an-astro-site/

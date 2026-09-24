@@ -1,6 +1,6 @@
 # HardFault — Project Plan
 
-Status: First chapter, runnable C examples, and Astro/Starlight website implemented. Cloudflare account connection and first deployment are pending; see DEPLOYMENT.md.
+Status: First chapter, runnable C examples, and Astro/Starlight website published at https://hardfault.pages.dev. Cloudflare Pages is connected to GitHub for automatic deployment from main; see DEPLOYMENT.md.
 
 ## Purpose
 
@@ -186,7 +186,7 @@ Document exact setup, development, build, and contribution commands in `README.m
 - First sample chapter and initial topic priorities.
 - Cloudflare account connection needed for publication.
 
-GitHub authentication is configured and the website is implemented. Cloudflare account creation, repository connection, and the first deployment remain pending. The first chapter is bit manipulation; subsequent topic priorities are still open.
+GitHub and Cloudflare are connected, and the website is live at https://hardfault.pages.dev. The first chapter is bit manipulation; subsequent topic priorities and content/code licensing are still open.
 
 ## References
 

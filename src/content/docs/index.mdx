@@ -1,0 +1,46 @@
+---
+title: Embedded systems, bit by bit.
+description: A free guide to firmware engineering, from the first truth table to practical embedded systems and interview preparation.
+template: splash
+hero:
+  tagline: Understand the bits. Build the firmware. Learn the fundamentals of embedded engineering through clear explanations, runnable C examples, and practice.
+  actions:
+    - text: Start with bit manipulation
+      link: /c-and-cpp/bit-manipulation/
+      icon: right-arrow
+    - text: Explore the source
+      link: https://github.com/KaranBajaj08/hardfault
+      icon: external
+      variant: secondary
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Start at the bit level
+
+HardFault is a growing, free learning resource for firmware and embedded software engineers. Whether you are preparing for an interview or strengthening your foundations, start with one concept and work through it carefully.
+
+<LinkCard title="01 · Bit manipulation" description="Truth tables → operators → masks → flags → register fields. Includes worked examples and eight practice questions." href="/c-and-cpp/bit-manipulation/" />
+
+## Read. Reason. Run.
+
+<CardGrid>
+  <Card title="Understand the concept" icon="open-book">
+    Follow the reasoning from first principles, with binary diagrams and small examples you can work through by hand.
+  </Card>
+  <Card title="Check it in C" icon="terminal">
+    Compile the accompanying examples on your computer. The first chapter requires no development board.
+  </Card>
+  <Card title="Test your understanding" icon="pencil">
+    Work through practice questions before revealing the answers. Learn to explain why an operation works.
+  </Card>
+  <Card title="Connect it to firmware" icon="setting">
+    Learn where everyday C meets registers, hardware behavior, and the mistakes that matter in real systems.
+  </Card>
+</CardGrid>
+
+## A handbook in progress
+
+The first chapter is ready to read. Future topics will build toward memory and pointers, interrupts, peripheral interfaces, RTOS concepts, and debugging. New chapters will appear as they are written and checked.
+
+Everything here is free to read, with no account required. Found something unclear? [Open an issue on GitHub](https://github.com/KaranBajaj08/hardfault/issues).

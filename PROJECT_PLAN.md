@@ -1,6 +1,6 @@
 # HardFault — Project Plan
 
-Status: Planning complete; implementation has not started.
+Status: First chapter, runnable C examples, and Astro/Starlight website implemented. Cloudflare account connection and first deployment are pending; see DEPLOYMENT.md.
 
 ## Purpose
 
@@ -186,7 +186,7 @@ Document exact setup, development, build, and contribution commands in `README.m
 - First sample chapter and initial topic priorities.
 - Cloudflare account connection needed for publication.
 
-These decisions do not prevent local scaffolding. GitHub authentication is configured. Website implementation and Cloudflare hosting setup remain pending.
+GitHub authentication is configured and the website is implemented. Cloudflare account creation, repository connection, and the first deployment remain pending. The first chapter is bit manipulation; subsequent topic priorities are still open.
 
 ## References
 
